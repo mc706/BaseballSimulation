@@ -1,11 +1,10 @@
-
 from typing import List, Tuple
 from statistics import mean
 from multiprocessing import Pool, cpu_count, freeze_support
 from multiprocessing.dummy import Pool as TPool
 import json
 from tqdm import tqdm
-
+from simulation import Player
 
 
 team = [
